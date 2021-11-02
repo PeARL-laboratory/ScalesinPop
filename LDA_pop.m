@@ -97,9 +97,9 @@ for i = 1:numTopics
         subplot(1,numTopics,i);
     end
     if any(strcmp(tab.(name).top.Word,'I'))
-        tab.(name).scale = SDs_dist_v2(tab.(name).top.Word,tab.(name).top.Score,table2array(maj(1,3:5)));
+        tab.(name).scale = RNs_2_SDs(tab.(name).top.Word,tab.(name).top.Score,table2array(maj(1,3:5)));
     else
-        tab.(name).scale = SDs_dist_v2(tab.(name).top.Word,tab.(name).top.Score,table2array(min(1,3:5)));
+        tab.(name).scale = RNs_2_SDs(tab.(name).top.Word,tab.(name).top.Score,table2array(min(1,3:5)));
     end
     title("Topic " + i);
     

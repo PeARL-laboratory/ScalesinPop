@@ -124,7 +124,7 @@ for j = 1:numTopics
     for i = 1:size(weights,1)
          
         % get scale stats.
-        tmp = SDs_dist_v2(top.Word,top.Score,weights(i,:));
+        tmp = RNs_2_SDs(top.Word,top.Score,weights(i,:));
         root = weights(i,1);
         bass = weights(i,2);
         other = weights(i,3);
