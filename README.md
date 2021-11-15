@@ -2,7 +2,7 @@
 
 This Github repository includes the code to produce LDA topic models for the triadic corpora reported in: 
 
-Sears & Glosson (2021), "Topic models reveal scale systems in popular music." Paper presented as a late-breaking demo at the International Society for Music Information Retrieval Conference (2021). 
+Sears & Glosson (2021), "Topic models reveal scale systems in popular music." Paper presented as a late-breaking demo at the International Society for Music Information Retrieval Conference (2021). https://archives.ismir.net/ismir2021/latebreaking/000048.pdf
 
 ## Code
 
